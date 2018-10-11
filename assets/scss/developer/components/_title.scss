@@ -1,0 +1,12 @@
+.section-title{
+    padding-bottom: 1rem;
+    color: #fff;
+
+    &--main{
+        color: $secondary;
+    }
+
+    &--sub{
+        color: #fff;
+    }
+}

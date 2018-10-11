@@ -1,0 +1,13 @@
+.hero{
+    width: 100%;
+    background-image:linear-gradient(
+            to right bottom,
+             rgba($primary-gradient, 1),
+             rgba(#122346, .10)),
+             url('/assets/img/brand/bg.jpg');
+    background-size: cover;
+    background-position: top;
+
+}
+
+

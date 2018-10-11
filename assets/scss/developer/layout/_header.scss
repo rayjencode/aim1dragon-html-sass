@@ -1,0 +1,32 @@
+.top-nav{
+    background-color: red;
+    min-height: 10vh;
+}
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 7.5rem;
+
+    &--main{
+       display: block;
+       font-size: 8rem;
+       letter-spacing: .8rem;
+       font-weight: 700;
+    }
+
+    &--sub{
+        display: block;
+        font-size: 5rem;
+        padding-top: 7rem;
+        font-weight: 700;
+    }
+
+    &--par{
+        display: block;
+        font-size: 2rem;
+    }
+}
+.navbar-brand img{
+    height: 2.8rem;
+}

@@ -1,0 +1,14 @@
+.footer-wrapper{
+    background-color: $default;
+    padding: 1.5rem 0;
+    font-size: .8rem;
+}
+
+.nav-link{
+    color: #fff;
+
+    &:hover,
+    &:active{
+        color: $secondary;  
+    }
+}

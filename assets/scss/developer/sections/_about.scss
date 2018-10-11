@@ -1,0 +1,30 @@
+
+.left-col-img{
+    // background-image: url('/assets/img/brand/about-img.png');
+    // background-image: rgba($default, 0.30), url('/assets/img/brand/about-img.png');
+    background-image:linear-gradient(
+        to right bottom,
+         rgba($default, 0.80),
+         rgba($default, 0.80)),
+         url("/assets/img/brand/about-img.png");
+    // height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 50% 50%;
+    position: relative;
+}
+
+.about-wrapper{
+    background-color: $default;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 3rem;
+    
+
+    p{
+        text-align: left;
+        color: $gray-500;
+        padding-top: 1rem;  
+    }
+}
+

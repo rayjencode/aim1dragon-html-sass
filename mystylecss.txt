@@ -1,0 +1,435 @@
+//variables
+// $primary-gradient: #3D7EAA;
+// $secondary-gradient: #FFE47A;
+
+
+// .btn{
+//     &--join{
+//         width: 70%;
+//     }
+//     &--subscribe{
+//         width: 19rem;
+//         float: right;
+//     }
+// }
+// .hero{
+//     width: 100%;
+//     background: url('/assets/img/brand/bg.jpg') no-repeat;
+//     background-size: cover;
+//     background-position: top;
+// }
+
+
+// .subscribe{
+//     background-image: linear-gradient(to right bottom, #ffcf62, #ffa043);
+// }
+
+// .event-box{
+//     &__calendar{
+//         &--icon{
+//             font-size: 3.5rem;
+//             color: $default;
+//         }
+//     }
+//     border-bottom: .1rem solid #a9c5d8;
+// }
+
+// .event-content__title{
+//     &--text{
+//         text-transform: uppercase;
+//         font-weight: 700;
+//     }
+//     &--date{
+//         font-size: .9rem;
+//     }
+//     border-bottom: .1rem solid #a9c5d8;
+// }
+
+// .heading-primary{
+//     color: #fff;
+//     text-transform: uppercase;
+//     line-height: 7.5rem;
+
+//     &--main{
+//        display: block;
+//        font-size: 8rem;
+//        letter-spacing: .8rem;
+//        font-weight: 700;
+//     }
+
+//     &--sub{
+//         display: block;
+//         font-size: 5rem;
+//         padding-top: 7rem;
+//         font-weight: 700;
+//     }
+
+//     &--par{
+//         display: block;
+//         font-size: 2rem;
+//     }
+// }
+
+// .event-content__countdown {
+//     text-align: center;
+    
+//     li {
+//         display: inline-block;
+//         list-style-type: none;
+//         padding-left: .5rem;
+    
+//         span {
+//             display: block;
+//             background-color: #d6d6d6;
+//             width: 100%;
+//             font-size: 1rem;
+//             padding: 1rem;
+//             width: 4rem;
+//         }
+//     }  
+// }
+
+
+// .event{
+//     &__content{
+//         float: right;
+//     }
+//     &__list{
+//         text-align: center;
+//     }
+
+//     &__item{
+//         display: inline-block;
+//         list-style-type: none;
+//         font-size: 12px;
+//         width: 5rem;
+//         padding-right: 1rem;
+//         margin-left: 5px;
+        
+       
+//         span{
+//             display: block;
+//             padding: 1rem;
+//             font-size: 15px;
+//             background-color: #d6d6d6;
+//         }
+        
+//     }
+// }
+  
+// .event{
+
+//     &__list{
+//         text-align: center;
+//         display: inline-block;
+        
+//         width: 5rem;
+//     }
+
+//     &__item{
+//         display: block;
+//         background-color: #d6d6d6;
+//     }
+// }
+
+
+/////////////////////////////////////////////////
+//CALCULATOR
+
+// .calculator{
+//     // height: 60vh;
+//     padding-bottom: 3rem;
+//     background-image:linear-gradient(
+//             to right bottom,
+//              rgba($primary-gradient, 1),
+//              rgba($secondary-gradient, 1));
+// }
+
+
+// // Base Colors
+// $shade-10: #2c3e50 !default;
+// $shade-1: #d7dcdf !default;
+// $shade-0: #fff !default;
+// $teal: #1abc9c !default;
+
+
+
+// .range-slider {
+//   margin: 60px 0 0 0%;
+// }
+
+
+// // Range Slider
+// $range-width: 100% !default;
+
+// $range-handle-color: $shade-10 !default;
+// $range-handle-color-hover: $teal !default;
+// $range-handle-size: 20px !default;
+
+// $range-track-color: $shade-1 !default;
+// $range-track-height: 10px !default;
+
+// $range-label-color: $shade-10 !default;
+// $range-label-width: 60px !default;
+
+// .range-slider {
+//   width: $range-width;
+// }
+
+// .range-slider__range {
+//   -webkit-appearance: none;
+//   width: calc(100% - (#{$range-label-width + 13px}));
+//   height: $range-track-height;
+//   border-radius: 5px;
+//   background: $range-track-color;
+//   outline: none;
+//   padding: 0;
+//   margin: 0;
+
+//   // Range Handle
+//   &::-webkit-slider-thumb {
+//     appearance: none;
+//     width: $range-handle-size;
+//     height: $range-handle-size;
+//     border-radius: 50%;
+//     background: $range-handle-color;
+//     cursor: pointer;
+//     transition: background .15s ease-in-out;
+//     box-shadow: 0 0 0 3px $shade-0,
+//                   0 0 0 6px $teal;
+
+
+//     &:hover {
+//       background: $range-handle-color-hover;
+//     }
+//   }
+
+//   &:active::-webkit-slider-thumb {
+//     background: $range-handle-color-hover;
+//   }
+
+//   &::-moz-range-thumb {
+//     width: $range-handle-size;
+//     height: $range-handle-size;
+//     border: 0;
+//     border-radius: 50%;
+//     background: $range-handle-color;
+//     cursor: pointer;
+//     transition: background .15s ease-in-out;
+
+//     &:hover {
+//       background: $range-handle-color-hover;
+//     }
+//   }
+
+//   &:active::-moz-range-thumb {
+//     background: $range-handle-color-hover;
+//   }
+  
+//   // Focus state
+//   &:focus {
+    
+//     &::-webkit-slider-thumb {
+//       box-shadow: 0 0 0 3px $shade-0,
+//                   0 0 0 6px $teal;
+//     }
+//   }
+// }
+
+
+// // Range Label
+// .range-slider__value {
+//   display: inline-block;
+//   position: relative;
+//   width: $range-label-width;
+//   color: $shade-0;
+//   line-height: 20px;
+//   text-align: center;
+//   border-radius: 3px;
+//   background: $range-label-color;
+//   padding: 10px 10px;
+//   margin-left: 8px;
+
+//   &:after {
+//     position: absolute;
+//     top: 8px;
+//     left: -7px;
+//     width: 0;
+//     height: 0;
+//     border-top: 7px solid transparent;
+//     border-right: 7px solid $range-label-color;
+//     border-bottom: 7px solid transparent;
+//     content: '';
+//   }
+// }
+
+// .range-slider_title{
+//     display: inline-block;
+//     position: relative;
+//     color: #2c3e50;
+//     float: right;
+//     font-weight: 700;
+// }
+
+// .range-slider__Calculate{
+//     font-size: 2rem;
+//     font-weight: 300;
+// }
+
+// .potential-income{
+//     background-color: rgba(#fff, 0.30);
+//     border-radius: 5px;
+// }
+    
+
+
+// // Firefox Overrides
+// ::-moz-range-track {
+//     background: $range-track-color;
+//     border: 0;
+// }
+
+// input::-moz-focus-inner,
+// input::-moz-focus-outer { 
+//   border: 0; 
+// }
+
+
+
+
+/*====== Counters =====*/
+// .counter-overlay{
+//     // background-image:linear-gradient(
+//     //     to right bottom,
+//     //      /*rgba($primary-gradient, 0.80),
+//     //      rgba($secondary-gradient, 0.80)),*/
+//     //      rgba(#fff, 0.80),
+//     //      rgba(#fff, 0.80)),
+//     //      url('/assets/img/brand/rewardss.jpg');
+
+// }
+// .counter-item h2{
+//     color: $default;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     font-size: 2rem;
+//     margin-top: 1rem;
+// }
+// .counter-item p{
+//     color: $default;
+//     font-size: 1rem;
+//     font-weight: 300;
+//     text-transform: uppercase;
+// }
+
+
+
+
+/////////////////////////////////
+//Marketing Strategy Section
+// .marketing-strategy{
+//     background-color:#eaeaea;
+// }
+
+
+
+@media (max-width: 576px) {
+    .hero{
+        background-image:linear-gradient(
+            to right bottom,
+             rgba($primary-gradient, 1),
+             rgba(#122346, .50)),
+             url('/assets/img/brand/bg.jpg');
+    }
+    .btn{
+        &--subscribe{
+            float: none;
+        }
+    }
+    .subscribe-content{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .heading-primary{
+        line-height: 5rem;
+        
+        &--main{
+            font-size: 4.5rem;
+            display: inline-block;
+        }
+
+        &--sub{
+            font-size: 3rem;
+            display: inline-block;
+        }
+
+        &--par{
+            font-size: 1rem;
+        }
+    }
+    .event{
+        &__content{
+        }
+        &__list{
+            
+        }
+    
+        &__item{
+            margin-right:-1rem;
+        }
+    }
+    .event-box__group--heading-title{
+        font-size: 1rem;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
+    .btn{
+        &--subscribe{
+            float: none;
+        }
+    }
+    .subscribe-content{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .heading-primary{
+        line-height: 5rem;
+        
+        &--main{
+            font-size: 4.5rem;
+            display: inline-block;
+        }
+
+        &--sub{
+            font-size: 3rem;
+            display: inline-block;
+        }
+
+        &--par{
+            font-size: 1rem;
+        }
+        
+    }
+    .event-box__group--heading-title{
+        font-size: 1.5rem;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    .subscribe-content{
+        font-size: 1.1rem;
+    }
+    .event-box__group--heading-title{
+        font-size: 1rem;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+
+

@@ -1,0 +1,41 @@
+.event-box{
+    &__calendar{
+        &--icon{
+            font-size: 3.5rem;
+            color: $default;
+        }
+    }
+    border-bottom: .1rem solid #a9c5d8;
+}
+
+.event-content__title{
+    &--text{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    &--date{
+        font-size: .9rem;
+    }
+    border-bottom: .1rem solid #a9c5d8;
+}
+
+
+.event{
+
+    &__item{
+        list-style-type: none;
+        font-size: 12px;
+        width: 5rem;
+        padding-right: 1rem;
+        margin-left: 5px;
+       
+        span{
+            display: block;
+            padding: 1rem;
+            font-size: 15px;
+            background-color: #d6d6d6;
+        }
+        
+    }
+}

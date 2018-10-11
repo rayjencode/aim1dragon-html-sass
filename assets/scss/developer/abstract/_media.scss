@@ -1,0 +1,106 @@
+@media (max-width: 576px) {
+    .hero{
+        background-image:linear-gradient(
+            to right bottom,
+             rgba($primary-gradient, 1),
+             rgba(#122346, .50)),
+             url('/assets/img/brand/bg.jpg');
+    }
+    .btn{
+        &--subscribe{
+            float: none;
+        }
+    }
+    .subscribe-content{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .heading-primary{
+        line-height: 5rem;
+        
+        &--main{
+            font-size: 3.5rem;
+            display: inline-block;
+        }
+
+        &--sub{
+            font-size: 2rem;
+            display: inline-block;
+        }
+
+        &--par{
+            font-size: 1rem;
+        }
+    }
+    .event{
+        &__content{
+        }
+        &__list{
+            
+        }
+    
+        &__item{
+            margin-right:-1rem;
+        }
+    }
+    .event-box__group--heading-title{
+        font-size: 1rem;
+    }
+}
+
+
+/*------------------------------------------*\
+    #Medium devices (tablets, 768px and up
+\*------------------------------------------*/
+
+@media (max-width: 768px) {
+    .top-nav{
+        display: none;
+    }
+    .btn{
+        &--subscribe{
+            float: none;
+        }
+    }
+    .subscribe-content{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .heading-primary{
+        line-height: 5rem;
+        
+        &--main{
+            font-size: 3.5rem;
+            display: inline-block;
+        }
+
+        &--sub{
+            font-size: 2rem;
+            display: inline-block;
+        }
+
+        &--par{
+            font-size: 1rem;
+        }
+        
+    }
+    .event-box__group--heading-title{
+        font-size: 1.5rem;
+    }
+    .left-col-img{
+        display: none;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    .subscribe-content{
+        font-size: 1.1rem;
+    }
+    .event-box__group--heading-title{
+        font-size: 1rem;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
